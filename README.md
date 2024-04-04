@@ -85,3 +85,15 @@ Este é um projeto de uma API node.js no padrão RESTful que possibilita a cria�
 - **DELETE /posts/:postId/comments/:commentId**: Exclui um comentário específico de um post.
 
 > Lembre-se de substituir `:id` , `:postId` e `:commentId` pelos valores reais ao testar os endpoints.
+
+## Executando o ESLint
+
+Este projeto utiliza o ESLint para manter um código limpo e consistente. Você pode executar o ESLint no projeto usando o seguinte comando:
+
+    npx eslint .
+
+Este comando verificará todos os arquivos JavaScript no projeto e relatará quaisquer problemas de estilo ou possíveis erros. Se desejar, você pode corrigir automaticamente alguns problemas adicionando a opção `--fix`:
+
+    npx eslint . --fix
+
+Isso tentará corrigir automaticamente qualquer problema de estilo que puder ser resolvido automaticamente.
