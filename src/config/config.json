@@ -1,0 +1,10 @@
+{
+    "development": {
+      "username": "Seu usuário do mysql (por padrão é o root)",
+      "password": "Sua senha do mysql",
+      "database": "banco_de_dados",
+      "host": "localhost",
+      "dialect": "mysql"
+    }
+  }
+  
