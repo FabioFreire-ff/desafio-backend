@@ -84,4 +84,4 @@ Este é um projeto de uma API node.js no padrão RESTful que possibilita a cria�
     ```
 - **DELETE /posts/:postId/comments/:commentId**: Exclui um comentário específico de um post.
 
-> Lembre-se de substituir `:postId` e `:commentId` pelos valores reais ao testar os endpoints.
+> Lembre-se de substituir `:id` , `:postId` e `:commentId` pelos valores reais ao testar os endpoints.
